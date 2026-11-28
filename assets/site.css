@@ -59,7 +59,8 @@ a:hover { text-decoration-thickness: 2px; }
 }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 56px; }
 .brand { display: flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; font: 600 19px/1 var(--serif); }
-.brand img { width: 28px; height: 28px; border-radius: 7px; }
+.brand picture { display: block; margin-left: -8px; }
+.brand img { display: block; width: auto; height: 40px; }
 .site-header nav { display: flex; gap: 22px; }
 .site-header nav a { color: var(--ink-soft); text-decoration: none; font-size: 14px; }
 .site-header nav a:hover, .site-header nav a[aria-current] { color: var(--ink); }
@@ -73,7 +74,7 @@ h1, h2, h3 { text-wrap: balance; font-family: var(--serif); font-weight: 600; le
 /* Hero */
 .hero { padding: 72px 0 96px; overflow: hidden; }
 .hero .wrap { display: grid; grid-template-columns: 1.05fr 1fr; gap: 48px; align-items: center; }
-.hero-icon { width: 112px; height: 112px; border-radius: 25px; box-shadow: 0 18px 40px -14px rgba(226, 80, 26, .55), 0 2px 6px rgba(0,0,0,.08); margin-bottom: 26px; }
+.hero-icon { width: 112px; height: 112px; border-radius: 25px; box-shadow: 0 18px 40px -16px rgba(33, 29, 24, .35), 0 0 0 1px rgba(33, 29, 24, .06), 0 2px 6px rgba(0,0,0,.08); margin-bottom: 26px; }
 .hero h1 { font-size: clamp(48px, 7vw, 80px); }
 .hero h1 .accent { display: block; background: linear-gradient(180deg, var(--flame-1), var(--flame-2)); -webkit-background-clip: text; background-clip: text; color: transparent; font-size: .56em; margin-top: 12px; line-height: 1.15; }
 .ctas { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin-top: 34px; }
@@ -141,7 +142,7 @@ h1, h2, h3 { text-wrap: balance; font-family: var(--serif); font-weight: 600; le
 
 /* Final CTA */
 .final { text-align: center; padding: 24px 0 96px; }
-.final img.icon { width: 88px; height: 88px; border-radius: 20px; margin: 0 auto 22px; box-shadow: 0 14px 30px -12px rgba(226, 80, 26, .55); }
+.final img.icon { width: 88px; height: 88px; border-radius: 20px; margin: 0 auto 22px; box-shadow: 0 14px 30px -14px rgba(33, 29, 24, .35), 0 0 0 1px rgba(33, 29, 24, .06); }
 .final h2 { font-size: clamp(32px, 4.4vw, 48px); }
 .final .ctas { justify-content: center; }
 
